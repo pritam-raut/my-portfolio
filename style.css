@@ -1,0 +1,442 @@
+*{
+    margin: 0%;
+    border: border-box;
+    font-family: Arial;
+
+}
+body{ 
+    background-color: #e1e5f2;
+}
+.maindiv{
+    width: 86%;
+    
+}
+
+.navdiv{
+    width: 100%;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.skillsection{
+    width: 10%;
+    background-color: #ffffff;
+    border-radius: 6px;
+
+}
+.contener{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+
+
+.contenermain{
+    height: 40px;
+    width: 96%;
+    
+}
+
+.messagecontenar{
+    display: flex;
+    
+    margin-top: 18px;
+
+}
+
+input{
+    width: 75.5%;
+    height: 40px;
+    margin-left: 18px;
+    text-align: center;
+    font-size: 1.2rem;
+    border: none;
+   border-top-left-radius: 6px;
+   border-bottom-left-radius: 6px;
+}
+
+.sendbutton{
+   
+   width: 10.6%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 2rem;
+   border-top-right-radius: 6px;
+   border-bottom-right-radius: 6px;
+   background-color: #fec601;
+}
+
+
+.navname{
+
+    font-size: 1rem;
+   font-weight: 700;
+   color: #4f5d75;
+   margin-left: 2%;
+}
+
+.navoptions{
+
+display: flex;
+margin-left: 61%;
+}
+
+A{
+    margin-left: 8%;
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #4f5d75;
+}
+
+.a1{
+
+    color: #fec601;
+}
+
+
+.textpart{
+
+    width: 60%;
+    height: 560px;
+    
+}
+
+/** DIVIDING CONTANT PART IN TO SECTION**/
+
+.portm1{
+    width: 100%;
+    height: 560px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    display: flex;
+ 
+}
+
+
+.portm2{
+    width: 40%;
+    height: 560px;
+    display: flex;
+}
+
+/** ADDING PROFILE IMAGE **/
+
+.portimg1{
+    
+    width: 80%;
+    height: 90%;
+    background-image: url("port.png");
+    background-size: cover;
+    margin-top: 10.4%;
+    margin-left: 9%;
+   
+}
+/** ADDING TEXT TO PORTFOLIO **/
+
+.hello{
+
+    font-size: 60px;
+    margin-left: 115px;
+    margin-top: 10%;
+    font-family: cursive;
+    color: #27187e;
+}
+
+.name{
+display: flex;
+    
+}
+.name1{
+    color: #27187e;
+    font-size: 40px;
+    margin-left: 150px;
+    font-family: cursive;
+}
+ 
+.name2{
+    color: #fec601;
+    font-size: 40px;
+    margin-left: 8px;
+    font-family: cursive;
+}
+ 
+.about{
+     font-size: 20px;
+     margin-left: 150px;
+     font-family: cursive;
+     color: #702632;
+}
+.self{
+
+    margin-left: 150px;
+    font-size: 15px;
+    font-family: cursive;
+     color: #40434e;
+}
+
+/** ADDING CV DAWNLODER BUTTON **/
+.cvmain{
+
+    display: flex;
+}
+.cv{
+
+    height: 30px;
+    width: 100px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 145px;
+    margin-top: 18px;
+    background-color: #27187e;
+    color: #fec601;
+}
+
+.cv2{
+
+    height: 30px;
+    width: 100px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 18px;
+    background-color: #fec601;
+    color: #27187e;
+    font-weight: 550;
+}
+/** ADDING SOCIAL HANDELS **/
+
+.git{
+    display: flex;
+    
+
+}
+.github{
+
+    width: 30px;
+    height: 30px;
+    background-image: url("github.png");
+    background-size: cover;
+    margin-top: 36px;
+    margin-left: 115px;
+}
+.gitid{
+display: flex;
+    font-size: 15px;
+    color: #40434e;
+    align-items: center;
+    text-align: center;
+    margin-top: 36px;
+    margin-left: 6px;
+}
+
+.linkedin{
+    display: flex;
+
+}
+
+.linkedin1{
+
+    width: 30px;
+    height: 30px;
+    background-image: url("LinkedIn_icon.png");
+    background-size: cover;
+    margin-top: 15px;
+    margin-left: 115px;  
+}
+
+.linkedin2{
+    display: flex;
+    font-size: 15px;
+    color: #40434e;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 6px;
+}
+
+.gmail{
+
+    display: flex;
+}
+
+.gmail1{
+
+    width: 30px;
+    height: 30px;
+    background-image: url("gmail-icon.png");
+    background-size: cover;
+    margin-top: 15px;
+    margin-left: 115px;    
+}
+
+.gmail2{
+
+    display: flex;
+    font-size: 15px;
+    color: #40434e;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 6px;  
+}
+
+/** START OF SKILL SECTION **/
+
+.skillsection{
+
+    align-items: center;
+    
+}
+
+/** add scrollbar **/
+
+.scrollbar{
+
+    width: 165px;
+    height: 620px;
+    overflow: auto;
+}
+
+/** making skill section hading or full skill section **/
+.skilltext{
+
+    height: 60px;
+    width: 114px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: monospace;
+    margin-left: 18px;
+    margin-top: 18px;
+    font-weight: 600;
+    background-color: #fec601;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    color: #27187e;
+    position: sticky;
+    top: 0px;
+}
+
+.skill1{
+
+    width: 114px;
+    height: 114px; 
+    margin-top: 18px; 
+    margin-left: 18px;
+    border-radius: 6px;
+    background-color: #40434e;
+}
+.skillimg1{
+
+    background-image: url();
+}
+
+.skill2{
+
+    width: 114px;
+    height: 114px; 
+    margin-top: 18px; 
+    margin-left: 18px;
+    border-radius: 6px;
+    background-color: #40434e;
+}
+.skillimg2{
+    
+    background-image: url();
+}
+
+.skill3{
+
+    width: 114px;
+    height: 114px; 
+    margin-top: 18px; 
+    margin-left: 18px;
+    border-radius: 6px;
+    background-color: #40434e;
+}
+.skillimg3{
+    
+    background-image: url();
+}
+
+.skill4{
+
+    width: 114px;
+    height: 114px; 
+    margin-top: 18px; 
+    margin-left: 18px;
+    border-radius: 6px;
+    background-color: #40434e;
+}
+.skillimg4{
+    
+    background-image: url();
+}
+
+.skill5{
+
+    width: 114px;
+    height: 114px; 
+    margin-top: 18px; 
+    margin-left: 18px;
+    border-radius: 6px;
+    background-color: #40434e;
+}
+.skillimg5{
+ 
+    background-image: url();
+}
+
+.skill6{
+
+    width: 114px;
+    height: 114px; 
+    margin-top: 18px; 
+    margin-left: 18px;
+    border-radius: 6px;
+    background-color: #40434e;
+}
+.skillimg6{
+    
+    background-image: url();
+}
+
+.skill7{
+
+    width: 114px;
+    height: 114px; 
+    margin-top: 18px; 
+    margin-left: 18px;
+    border-radius: 6px;
+    background-color: #40434e;
+}
+.skillimg7{
+    
+    background-image: url();
+}
+
+.skill8{
+
+    width: 114px;
+    height: 114px; 
+    margin-top: 18px; 
+    margin-left: 18px;
+    border-radius: 6px;
+    background-color: #40434e;
+}
+.skillimg8{
+   background-image: url(); 
+}
