@@ -19,8 +19,18 @@ align-items: end;
 
 .head{
     /* border : 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 16%;
     height: 80%;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
+
+}
+
+
+.headcol{
+     background-color: rgb(255, 255, 255);
+     color:rgb(10, 3, 49);
 }
