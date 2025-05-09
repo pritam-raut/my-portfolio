@@ -35,7 +35,6 @@ align-items: end;
 
 }
 
-
 .head a{
     display: flex;
     align-items: center;
@@ -61,24 +60,9 @@ align-items: end;
     border-radius: 0.5rem;
 }
 
-#aligntxt {
-    display: contents;
-    display: flex;
-    justify-content: flex-end;   
-    align-items: flex-end;
-    height: 98%;
-    width: 99%;
-}
-
-/* .aligntxt a{
-    display: flex;
-    justify-content: center;   
-    align-items: center;
-} */
-
 .hove{
     width: 99%;
-    height: 98%;
+    height: 97%;
     background-color: transparent;
     display: flex;
     justify-content: center;
