@@ -6,7 +6,7 @@
 }
 
 .header{
-    background-color: rgb(16, 5, 79);
+    background-color: rgb(255, 255, 255);
     height: 6vh;
     
 }
@@ -18,5 +18,9 @@ align-items: end;
 }
 
 .head{
-    border : 1px solid white;
+    /* border : 1px solid white; */
+    width: 16%;
+    height: 80%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
 }
