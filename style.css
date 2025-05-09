@@ -5,9 +5,16 @@
     background-color: rgb(10, 3, 49);
 }
 
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
 .header{
     background-color: rgb(255, 255, 255);
     height: 6vh;
+    width: 99%;
     
 }
 
@@ -22,11 +29,17 @@ align-items: end;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 16%;
+    width: 16.6%;
     height: 80%;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
 
+}
+
+.head a{
+    text-decoration: none;
+    color:rgb(10, 3, 49);
+    background-color: transparent;
 }
 
 
