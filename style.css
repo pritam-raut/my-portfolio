@@ -26,7 +26,6 @@ align-items: end;
 }
 
 .head{
-   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,7 +36,12 @@ align-items: end;
 
 }
 
+
 .head a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
     text-decoration: none;
     background-color: transparent;
     color:rgb(10, 3, 49);
@@ -54,3 +58,6 @@ align-items: end;
     color: rgb(255, 255, 255);
     font-weight: 700;
 }
+
+
+
