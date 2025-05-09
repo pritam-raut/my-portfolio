@@ -57,6 +57,39 @@ align-items: end;
     color: rgb(255, 255, 255);
     font-weight: 700;
 }
+.hove{
+    border-radius: 0.5rem;
+}
 
+#aligntxt {
+    display: contents;
+    display: flex;
+    justify-content: flex-end;   
+    align-items: flex-end;
+    height: 98%;
+    width: 99%;
+}
+
+/* .aligntxt a{
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+} */
+
+.hove{
+    width: 99%;
+    height: 98%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    
+    &:hover{
+        background-color: rgb(10, 3, 49,0.9);
+        transition: all 0.5s;
+        a{
+            color: rgb(255, 255, 255);
+        }
+    }
+}
 
 
