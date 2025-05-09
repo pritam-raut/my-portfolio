@@ -28,7 +28,6 @@ align-items: end;
 .head{
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 16.6%;
     height: 80%;
     border-top-left-radius: 0.5rem;
