@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: azure;
+    background-color: rgb(8, 3, 34);
+}
+
+.header{
+    background-color: rgb(16, 5, 79);
+    height: 6vh;
+    
+}
+
+.header{
+display: flex;
+justify-content: space-evenly;
+align-items: end;
+}
+
+.head{
+    border : 1px solid white;
+}
