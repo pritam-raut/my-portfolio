@@ -3,6 +3,7 @@
     padding: 0;
     color: azure;
     background-color: rgb(10, 3, 49);
+    font-family: roboto;
 }
 
 header{
@@ -40,6 +41,8 @@ align-items: end;
     text-decoration: none;
     background-color: transparent;
     color:rgb(10, 3, 49);
+    font-size: 1.1rem;
+    font-weight: 600;
 }
 
 
@@ -50,4 +53,5 @@ align-items: end;
 
 #color{
     color: rgb(255, 255, 255);
+    font-weight: 700;
 }
