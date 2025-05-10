@@ -95,7 +95,7 @@ align-items: end;
     display: flex;
     align-items: center;
     height: 50%;
-    width: 90%;
+    width: 100%;
 }
 
 .pfp-box{
@@ -118,6 +118,25 @@ align-items: end;
     width: 70%;
      /* border: 0.1px solid white; */
      display: flex;
-     align-items: center;
-     justify-content: flex-start;
+     flex-direction: column;
+     justify-content: center;
 }
+
+.profile-text h1{
+    font-size: 5rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.profile-text h2{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #75797e;
+}
+
+.profile-text h3{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #d3d4d5;
+}
+
