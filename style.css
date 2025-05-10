@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     color: azure;
-    background-color: rgb(10, 3, 49);
+    background-color: rgba(21,26,30,255);
     font-family: roboto;
 }
 
@@ -42,14 +42,13 @@ align-items: end;
     justify-content: center;
     text-decoration: none;
     background-color: transparent;
-    color:rgb(10, 3, 49);
+    color:rgba(21,26,30,255);
     font-size: 1.1rem;
     font-weight: 600;
 }
 
 .headcol{
      background-color: rgb(255, 255, 255);
-     color:rgb(10, 3, 49);
 }
 
 #color{
@@ -68,7 +67,7 @@ align-items: end;
     justify-content: center;
     
     &:hover{
-        background-color: rgb(10, 3, 49,0.9);
+        background-color: rgba(21,26,30,0.9);
         transition: all 0.5s;
         a{
             color: rgb(255, 255, 255);
