@@ -12,6 +12,8 @@ header{
     display: flex;
     justify-content: center;
     background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
 }
 
 .header{
@@ -79,9 +81,8 @@ align-items: end;
 #profile-contanioer{
     display: flex;
     justify-content: center;
-    height: 90vh;
+    height: 100vh;
     width: 100%;
-    /* border: 0.1px solid white; */
 }
 .profile-main{
     display: flex;
@@ -89,23 +90,21 @@ align-items: end;
     flex-direction: column;
     width: 89%;
     height: 100%;
-    /* border: 0.1px solid white; */
 }
 
 .profile-box{
     display: flex;
     align-items: center;
-    height: 60%;
+    height: 57%;
     width: 100%;
 }
 
 .pfp-box{
     height: 100%;
     width: 30%;
-     /* border: 0.1px solid white; */
-     display: flex;
-     align-items: center;
-     justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .pfp{
     border-radius: 50%;
@@ -120,10 +119,9 @@ align-items: end;
 .profile-text{
     height: 100%;
     width: 70%;
-     /* border: 0.1px solid white; */
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .profile-text h1{
@@ -142,15 +140,14 @@ align-items: end;
     font-size: 2rem;
     font-weight: 400;
     color: #d3d4d5;
-    /* padding-top: 1rem; */
+    
 }
 
 .about-area{
-    /* display: flex; */
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    height: 40%;
+    height: 43%;
 }
 .about-cmd{
     display: flex;
@@ -168,8 +165,6 @@ align-items: end;
 .about-contant{
     height: 55%;
     width: 100%;
-    background-color: rgba(23,28,31,1);
-    border: 0.5px solid rgba(255, 255, 255, 0.1);
     border-radius: 0.5rem;
     margin-top: 1rem;
 }
@@ -189,10 +184,25 @@ align-items: end;
 }
 
 .about-text p{
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 400;
     color: #d3d4d5;
     background-color: transparent;
     margin-top: 0.5rem;
 
+}
+
+.skill-main{
+   
+    height: 100vh;
+    width: 100%;
+    background-color: tomato;
+}
+
+.project-main{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
 }
