@@ -85,7 +85,8 @@ align-items: end;
 }
 .profile-main{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    flex-direction: column;
     width: 89%;
     height: 100%;
     /* border: 0.1px solid white; */
@@ -94,7 +95,7 @@ align-items: end;
 .profile-box{
     display: flex;
     align-items: center;
-    height: 50%;
+    height: 60%;
     width: 100%;
 }
 
@@ -111,6 +112,9 @@ align-items: end;
     height: 14rem;
     width: 14rem;
     background-color: rgb(255, 255, 255);
+    background-image: url('assets/Profile.png');
+    background-size: cover;
+    
 }
 
 .profile-text{
@@ -138,5 +142,57 @@ align-items: end;
     font-size: 2rem;
     font-weight: 400;
     color: #d3d4d5;
+    /* padding-top: 1rem; */
 }
 
+.about-area{
+    /* display: flex; */
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 40%;
+}
+.about-cmd{
+    display: flex;
+    align-items: center;
+    
+    width: 30%;
+}
+
+.about-cmd h2{
+    font-weight: 400;
+    font-size: 1.35rem;
+    color: #75797e;
+}
+
+.about-contant{
+    height: 55%;
+    width: 100%;
+    background-color: rgba(23,28,31,1);
+    border: 0.5px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+.about-text{
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+     margin-right: 1rem;
+    background-color: transparent;
+}
+
+.about-text h2{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+}
+
+.about-text p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #d3d4d5;
+    background-color: transparent;
+    margin-top: 0.5rem;
+
+}
