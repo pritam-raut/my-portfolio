@@ -97,6 +97,7 @@ align-items: end;
     align-items: center;
     height: 57%;
     width: 100%;
+   
 }
 
 .pfp-box{
@@ -192,30 +193,71 @@ align-items: end;
 
 }
 
-.skill-container{
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    width: 100%;
-    /* background-color: tomato; */
+.mobile-only{
+    display: none;
 }
 
-.skill-main{
-    width: 89%;
-    height: 100%;
-    border: 1px solid #d3d4d5;
-}
+@media (max-width: 400px){
 
-.skill-area{
-    width: 100%;
-    height: 40%;
-    background-color: wheat;
-}
+    .head a{
+        font-size: 0.75rem;
+    }
 
-.project-main{
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
+   
+    .profile-box{
+    flex-direction: column;
+     height: 52%;
+    }
+    .pfp-box{
+        width: 100%;
+        height: 60%;
+       
+    }
+
+    .pfp{
+        height: 10rem;
+        width: 10rem;
+        margin-top: 2.5rem;
+    }
+    .profile-text{
+        height: 40%;
+        
+    }
+    .profile-text h1{
+        font-size: 2rem;
+    }
+
+    .profile-text h2{
+        font-size: 1rem;
+    }
+
+    .profile-text h3{
+        font-size: 1rem;
+    }
+
+    .cmd{
+        font-size: 0.95rem;
+    }
+    
+    .about-text h2{
+        font-size: 0.85rem;
+    }
+
+    .about-text p{
+        font-size: 0.82rem;
+        margin-top: 0.25rem;
+        
+    }
+
+    .about-contant{
+        margin-top: 0.5rem;
+    }
+
+    .desktop-only{
+        display: none;
+    }
+
+    .mobile-only{
+        display: block;
+    }
 }
