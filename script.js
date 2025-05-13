@@ -56,7 +56,3 @@ opt6.addEventListener("click", function(event){
     console.log(window);
     navTextcolor(opt6);
 });
-
-// function navTextcolor(opt){
-//     opt.id = "col";
-// }
