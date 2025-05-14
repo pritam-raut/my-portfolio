@@ -177,7 +177,7 @@ align-items: end;
     background-color: transparent;
 }
 
-.about-text h2{
+.cmd-result-text{
     font-size: 1.1rem;
     font-weight: 500;
     color: rgb(255, 255, 255);
@@ -194,9 +194,9 @@ align-items: end;
 }
 
 #skills{
-    height: 40vh;
+    
+    height: fit-content;
     display: flex;
-    /* justify-content: center; */
     flex-direction: column;
     align-items: center;
 }
@@ -208,11 +208,34 @@ align-items: end;
 .skill-main{
     height: 90%;
     width: 89%;
-    border: 2px solid #d3d4d5;
 }
 
+.skills-container{
+    display: flex;
+    flex-direction: column;
+    
+    
+    height: 96%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
 
+.skill-boxes{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    height: fit-content;
+    margin-top: 0.5rem;
+}
 
+.skill-box{
+    height: 70px;
+    width: 350px;
+    border: 2px solid #d3d4d5;
+    border-radius: 0.5rem;
+    border: 1px rgba(255,255,255,0.3) solid;
+}
 
 
 
