@@ -193,6 +193,40 @@ align-items: end;
 
 }
 
+#skills{
+    height: 40vh;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-cmd{
+    display: flex;
+    width: 89%;
+}
+.skill-main{
+    height: 90%;
+    width: 89%;
+    border: 2px solid #d3d4d5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .mobile-only{
     display: none;
 }
