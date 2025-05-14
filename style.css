@@ -206,7 +206,7 @@ align-items: end;
     width: 89%;
 }
 .skill-main{
-    height: 90%;
+    height: 100%;
     width: 89%;
 }
 
@@ -219,6 +219,7 @@ align-items: end;
     margin-left: 1rem;
     margin-right: 1rem;
     margin-top: 1rem;
+    padding-bottom: 12.5rem;
 }
 
 .skill-boxes{
@@ -232,18 +233,52 @@ align-items: end;
 .skill-box{
     height: 70px;
     width: 350px;
-    border: 2px solid #d3d4d5;
     border-radius: 0.5rem;
     border: 1px rgba(255,255,255,0.3) solid;
 }
 
 
+#Project{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
 
+}
 
+.project-cmd{
+    display: flex;
+    width: 89%;
+}
 
+.project-main{
+    height: fit-content;
+    width: 89%;
+    height: 100%;
+    
+    
+}
 
+.project-container{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
 
+.project-boxes{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+}
 
+.project-box{
+    height: 170px;
+    width: 100%;
+    border-radius: 0.5rem;
+    border: 1px rgba(255,255,255,0.3) solid;
+    margin-bottom: 1rem;
+}
 
 
 
