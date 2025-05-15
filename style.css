@@ -322,6 +322,7 @@ align-items: end;
     border: 1px rgba(255,255,255,0.15) solid; 
 }
 
+/* for resposive design */
 
 .mobile-only{
     display: none;
