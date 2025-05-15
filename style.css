@@ -4,7 +4,7 @@
     color: azure;
     background-color: rgba(21,26,30,255);
     font-family: jetbrains mono;
-  
+    scrollbar-width: none;
     /* scrollbar-width: 1px; */
     
 }
@@ -317,7 +317,7 @@ align-items: end;
 
 .contact-box{
     height: 70px;
-    width: 279px;
+    width: 249px;
     border-radius: 0.5rem;
     border: 1px rgba(255,255,255,0.15) solid; 
 }
